@@ -15,24 +15,23 @@ The technologies used in the development of the frontend are the following:
 ## Project structure
 
 
-* tailwind.config.js
+* tailwind.config.js -> tailwindcss congig file
 * README.md
-* postcss.config.js
+* postcss.config.js -> tailwindcss congig file
 * package-lock.json
 * package.json
 * babel.config.js
   * src
-  *  main.js
-  * App.vue
-  * public
-  * views 
-  * store
-  * services
-  * router
-  *  router
-  * components
-  * assets
-  * api
+  * main.js 
+  * App.vue -> root app file
+  * public -> Public files
+  * views -> web site views
+  * store -> global web site state by modules
+  * services -> services to get data from the server
+  * router -> web site routes
+  * components -> visual components
+  * assets -> web site assets
+  * api -> Axios Api
 
 # Backend
 
@@ -51,10 +50,10 @@ The technologies used in the development of the backend are the following:
                        * webproject
                             * isale
                                 * ISaleApplication.java
-                                * business
-                                * controllers
-                                * dao
-                                * exceptions
-                                * filter
-                                * model
-                                * utils                                               
+                                * business -> business logic
+                                * controllers -> rest api controllers
+                                * dao -> repository classes
+                                * exceptions -> customs exceptions
+                                * filter -> JWT handle class
+                                * model -> app entities
+                                * utils -> some utils classes and security config                                              
